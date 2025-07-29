@@ -4,7 +4,7 @@
  */
 function getLength(numbers) {
   // TODO
-  return numbers.lengths;
+  return numbers.length;
 }
 
 /**
@@ -54,7 +54,6 @@ function getMax(numbers) {
 function getRange(numbers) {
   // TODO
   return getMax(numbers) - getMin(numbers);
-
 }
 
 /**
@@ -63,7 +62,7 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   // TODO
-
+  return numbers.filter((n) => n % 2 === 0);
 }
 
 /**
@@ -72,6 +71,7 @@ function getEvens(numbers) {
  */
 function getOdds(numbers) {
   // TODO
+  return numbers.filter((n) => n % 2 !== 0);
 }
 
 // === READ BUT DO NOT EDIT THE CODE BELOW ===
