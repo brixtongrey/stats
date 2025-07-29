@@ -4,6 +4,7 @@
  */
 function getLength(numbers) {
   // TODO
+  return numbers.lengths;
 }
 
 /**
@@ -12,6 +13,11 @@ function getLength(numbers) {
  */
 function getSum(numbers) {
   // TODO
+  let total = 0;
+  for (const num of numbers) {
+    total += num;
+  }
+  return total;
 }
 
 /**
@@ -20,6 +26,7 @@ function getSum(numbers) {
  */
 function getMean(numbers) {
   // TODO
+  return getSum(numbers) / getLength(numbers);
 }
 
 /**
@@ -28,6 +35,7 @@ function getMean(numbers) {
  */
 function getMin(numbers) {
   // TODO
+  return Math.min(...numbers);
 }
 
 /**
@@ -36,6 +44,7 @@ function getMin(numbers) {
  */
 function getMax(numbers) {
   // TODO
+  return Math.max(...numbers);
 }
 
 /**
@@ -44,6 +53,8 @@ function getMax(numbers) {
  */
 function getRange(numbers) {
   // TODO
+  return getMax(numbers) - getMin(numbers);
+
 }
 
 /**
@@ -52,6 +63,7 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   // TODO
+
 }
 
 /**
